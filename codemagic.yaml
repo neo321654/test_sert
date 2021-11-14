@@ -21,7 +21,6 @@ workflows:
       - app-store-connect fetch-signing-files "com.spotolcom.melcalculator" --type
         IOS_APP_DEVELOPMENT --create
       - keychain add-certificates
-      - keychain add-certificates
       - xcode-project use-profiles
       - flutter build ipa --export-options-plist=/Users/builder/export_options.plist
     artifacts:
