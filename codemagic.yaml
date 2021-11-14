@@ -18,7 +18,7 @@ workflows:
       - flutter packages pub get
       - find . -name "Podfile" -execdir pod install \;
       - keychain initialize
-      - app-store-connect fetch-signing-files "com.spotolcom.melcalculator" --type
+      - app-store-connect fetch-signing-files "com.example.testsert" --type
         IOS_APP_DEVELOPMENT --create
       - keychain add-certificates
       - xcode-project use-profiles
