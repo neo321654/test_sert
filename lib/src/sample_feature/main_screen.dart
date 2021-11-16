@@ -299,6 +299,10 @@ class _MainScreenState extends State<MainScreen> {
                   ),
                 ],
               ),
+              Divider(
+                height: 1,
+                thickness: 1,
+              ),
               Padding(
                 padding: const EdgeInsets.all(16),
                 // Glue the SettingsController to the theme selection DropdownButton.
@@ -326,6 +330,10 @@ class _MainScreenState extends State<MainScreen> {
                   ],
                 ),
               ),
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Text("Many thanks to my friend Dmitry Gordeev for his ideas, support and encouragement."),
+              )
             ],
 
           ),
