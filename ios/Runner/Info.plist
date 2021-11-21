@@ -9,13 +9,13 @@
 		<key>CFBundleIdentifier</key>
 		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 		<key>CFBundleInfoDictionaryVersion</key>
-		<string>7.0</string>
+		<string>8.0</string>
 		<key>CFBundleName</key>
 		<string>calculator MEL</string>
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>
-		<string>6.0.0</string>
+		<string>7.0.0</string>
 		<key>CFBundleSignature</key>
 		<string>????</string>
 		<key>CFBundleVersion</key>
